@@ -9,7 +9,7 @@ public class MenuBibliotecaTest {
 
     @Test
     public void whenAplicationStartsWelcomeMessageMustBeAppear() {
-        assertEquals("Welcome!", new MenuBiblioteca().showWelcomeMessage());
+        assertEquals("Welcome!", new MenuBiblioteca().getWelcomeMessage());
     }
 
     @Test
@@ -18,7 +18,7 @@ public class MenuBibliotecaTest {
                         "2 - Book Details\n" +
                         "3 - Quit\n" +
                         "Choose an option: ",
-                new MenuBiblioteca().listOptions());
+                new MenuBiblioteca().getListOfOptions());
     }
 
     @Test

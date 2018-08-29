@@ -32,6 +32,10 @@ public class LibraryManagement {
         return listOfTitles.toString();
     }
 
+    public void printListOfBooksTitles() {
+        System.out.println(getAListOfAllBooks());
+    }
+
     public void printFormattedListOfBooksDetails() {
         printColumnTitles();
         printFormattedBooksDetails();
