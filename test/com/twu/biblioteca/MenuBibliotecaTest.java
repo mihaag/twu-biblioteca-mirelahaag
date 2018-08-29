@@ -8,12 +8,12 @@ import static org.junit.Assert.assertFalse;
 public class MenuBibliotecaTest {
 
     @Test
-    public void whenAplicationStartsWelcomeMessageMustBeAppear() {
+    public void whenAplicationStartsWelcomeMessageMustAppear() {
         assertEquals("Welcome!", new MenuBiblioteca().getWelcomeMessage());
     }
 
     @Test
-    public void listOptionInMainMenu() {
+    public void getListOfOptionInMainMenu() {
         assertEquals("1 - List Books\n" +
                         "2 - Book Details\n" +
                         "3 - Quit\n" +
@@ -25,6 +25,5 @@ public class MenuBibliotecaTest {
     public void isOptionValidReturnsFalseWhenOptionNotValid() {
         assertFalse(new MenuBiblioteca().isOptionValid(7));
     }
-
-
+    
 }
