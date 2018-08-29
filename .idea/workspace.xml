@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55ba6f15-7018-4ca4-803f-f1f1e3f8e4ba" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/LibraryManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/LibraryManagement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/MenuBibliotecaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/MenuBibliotecaTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -34,12 +35,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="46" />
-          <entry key="java" value="5465" />
+          <entry key="java" value="5519" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5465" />
+          <entry key="JAVA" value="5519" />
           <entry key="PLAIN_TEXT" value="46" />
         </counts>
       </usages-collector>
@@ -60,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/MenuBibliotecaTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+            <state>
+              <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#whenAplicationStartsWelcomeMessageMustBeAppear#0;class#MenuBibliotecaTest#0" />
@@ -74,18 +75,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/LibraryManagement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+            <state relative-caret-position="165">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#mockListOfBooks#0;class#LibraryManagement#0" />
-                <element signature="e#1186#1187#0" expanded="true" />
-                <element signature="e#1221#1222#0" expanded="true" />
+                <element signature="method#printFormattedListOfBooksDetails#0;class#LibraryManagement#0" />
                 <element signature="method#getFormatFromWidths#0;class#LibraryManagement#0" />
                 <element signature="method#getFormatForHeaders#0;class#LibraryManagement#0" />
+                <element signature="method#printFormattedBooksDetails#0;class#LibraryManagement#0" />
                 <element signature="method#getMaxWidthAuthor#0;class#LibraryManagement#0" />
                 <element signature="method#getMaxWidthTitle#0;class#LibraryManagement#0" />
                 <element signature="method#checkIfMaxTitleShouldBeReplaced#0;class#LibraryManagement#0" />
@@ -115,9 +116,9 @@
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/Book.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/ExampleTest.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/LibraryManagementTest.java" />
-        <option value="$PROJECT_DIR$/src/com/twu/biblioteca/LibraryManagement.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/MenuBiblioteca.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/MenuBibliotecaTest.java" />
+        <option value="$PROJECT_DIR$/src/com/twu/biblioteca/LibraryManagement.java" />
       </list>
     </option>
   </component>
@@ -173,7 +174,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535579381947" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535579521826" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -196,7 +197,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BibliotecaApp">
+  <component name="RunManager" selected="JUnit.MenuBibliotecaTest">
     <configuration name="BibliotecaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.BibliotecaApp" />
       <module name="TWU_Biblioteca-master" />
@@ -254,9 +255,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BibliotecaApp" />
         <item itemvalue="JUnit.MenuBibliotecaTest" />
         <item itemvalue="JUnit.LibraryManagementTest" />
+        <item itemvalue="Application.BibliotecaApp" />
         <item itemvalue="JUnit.All in TWU_Biblioteca-master" />
       </list>
     </recent_temporary>
@@ -407,25 +408,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/LibraryManagement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#mockListOfBooks#0;class#LibraryManagement#0" />
-            <element signature="e#1186#1187#0" expanded="true" />
-            <element signature="e#1221#1222#0" expanded="true" />
-            <element signature="method#getFormatFromWidths#0;class#LibraryManagement#0" />
-            <element signature="method#getFormatForHeaders#0;class#LibraryManagement#0" />
-            <element signature="method#getMaxWidthAuthor#0;class#LibraryManagement#0" />
-            <element signature="method#getMaxWidthTitle#0;class#LibraryManagement#0" />
-            <element signature="method#checkIfMaxTitleShouldBeReplaced#0;class#LibraryManagement#0" />
-            <element signature="method#checkIfMaxAuthorShouldBeReplaced#0;class#LibraryManagement#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/MenuBiblioteca.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -439,12 +421,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/MenuBibliotecaTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+        <state>
+          <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#whenAplicationStartsWelcomeMessageMustBeAppear#0;class#MenuBibliotecaTest#0" />
             <element signature="method#getlistOptionInMainMenu#0;class#MenuBibliotecaTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/LibraryManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#mockListOfBooks#0;class#LibraryManagement#0" />
+            <element signature="method#printFormattedListOfBooksDetails#0;class#LibraryManagement#0" />
+            <element signature="method#getFormatFromWidths#0;class#LibraryManagement#0" />
+            <element signature="method#getFormatForHeaders#0;class#LibraryManagement#0" />
+            <element signature="method#printFormattedBooksDetails#0;class#LibraryManagement#0" />
+            <element signature="method#getMaxWidthAuthor#0;class#LibraryManagement#0" />
+            <element signature="method#getMaxWidthTitle#0;class#LibraryManagement#0" />
+            <element signature="method#checkIfMaxTitleShouldBeReplaced#0;class#LibraryManagement#0" />
+            <element signature="method#checkIfMaxAuthorShouldBeReplaced#0;class#LibraryManagement#0" />
           </folding>
         </state>
       </provider>

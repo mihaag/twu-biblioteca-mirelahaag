@@ -25,5 +25,5 @@ public class MenuBibliotecaTest {
     public void isOptionValidReturnsFalseWhenOptionNotValid() {
         assertFalse(new MenuBiblioteca().isOptionValid(7));
     }
-    
+
 }

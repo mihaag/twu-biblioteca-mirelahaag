@@ -5,11 +5,11 @@ import java.util.List;
 
 public class LibraryManagement {
 
-    public static final String COLUMN_TITLES = "Title\t\t\t\t\t\t\t\t\t\t\t\t\tAuthor\t\t\t\t\tYear Published";
     public static final String NEXT_LINE = "\n";
     public static final String HEADER_TITLE = "Title";
     public static final String HEADER_AUTHOR = "Author";
-    List<Book> listOfBooks;
+    public static final String HEADER_YEAR_PUBLISHED = "Year Published";
+    private List<Book> listOfBooks;
 
     public LibraryManagement() {
         mockListOfBooks();
@@ -42,7 +42,7 @@ public class LibraryManagement {
     }
 
     public void printColumnTitles() {
-        System.out.printf(getFormatForHeaders(), HEADER_TITLE, HEADER_AUTHOR, "Year");
+        System.out.printf(getFormatForHeaders(), HEADER_TITLE, HEADER_AUTHOR, HEADER_YEAR_PUBLISHED);
     }
 
     public String getFormatFromWidths() {
