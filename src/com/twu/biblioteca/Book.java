@@ -22,4 +22,15 @@ public class Book {
     public Integer getYearPublished() {
         return yearPublished;
     }
+
+    @Override
+    public String toString() {
+       return new StringBuilder()
+                .append(title)
+                .append("\t")
+                .append(author)
+                .append("\t\t")
+                .append(yearPublished)
+                .toString();
+    }
 }
