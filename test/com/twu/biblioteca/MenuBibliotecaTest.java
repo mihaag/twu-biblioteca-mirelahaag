@@ -14,12 +14,13 @@ public class MenuBibliotecaTest {
 
     @Test
     public void listOptionInMainMenu() {
-        assertEquals("1 - List Books", new MenuBiblioteca().showOptions());
+        assertEquals("1 - List Books", new MenuBiblioteca().listOptions());
     }
 
     @Test
     public void isOptionValidReturnsFalseWhenOptionNotValid() {
         assertFalse(new MenuBiblioteca().isOptionValid(7));
     }
+
 
 }
