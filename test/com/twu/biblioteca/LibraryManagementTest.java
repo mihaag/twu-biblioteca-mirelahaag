@@ -1,6 +1,7 @@
 package com.twu.biblioteca;
 
 import org.junit.Test;
+
 import static org.junit.Assert.assertEquals;
 
 public class LibraryManagementTest {
@@ -14,7 +15,7 @@ public class LibraryManagementTest {
     }
 
     @Test
-    public void getFormatByTitleAndAuthorMaxWidths () {
+    public void getFormatByTitleAndAuthorMaxWidths() {
         String expected = "%-54s %-24s %d\n";
         assertEquals(expected, new LibraryManagement().getFormatFromWidths());
     }

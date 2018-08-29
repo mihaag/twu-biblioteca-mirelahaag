@@ -32,6 +32,11 @@ public class LibraryManagement {
         return listOfTitles.toString();
     }
 
+    public void printFormattedListOfBooksDetails() {
+        printColumnTitles();
+        printFormattedBooksDetails();
+    }
+
     public void printColumnTitles() {
         System.out.printf(getFormatForHeaders(), HEADER_TITLE, HEADER_AUTHOR, "Year");
     }

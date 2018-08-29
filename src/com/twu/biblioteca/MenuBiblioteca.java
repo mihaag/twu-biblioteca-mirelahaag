@@ -6,7 +6,9 @@ public class MenuBiblioteca {
 
     public static final String WELCOME_MESSAGE = "Welcome!";
     public static final String OPT_LIST_BOOKS = "1 - List Books";
-    public static final String OPT_QUIT = "2 - Quit";
+    public static final String OPT_BOOK_DETAILS = "2 - Book Details";
+    public static final String OPT_QUIT = "3 - Quit";
+    public static final String NEW_LINE = "\n";
     private LibraryManagement libManagement = new LibraryManagement();
 
     public void startApp() {
@@ -15,22 +17,29 @@ public class MenuBiblioteca {
     }
 
     private void showOptionsToUser() {
-        Scanner s = new Scanner (System.in);
-
+        Scanner s = new Scanner(System.in);
         int option = 0;
+
         do {
             System.out.println(listOptions());
             option = s.nextInt();
 
-            if(isOptionValid(option)) {
-                if (option == 1) {
-                    System.out.println(libManagement.getAListOfAllBooks());
+            if (isOptionValid(option)) {
+                switch (option) {
+                    case 1:
+                        System.out.println(libManagement.getAListOfAllBooks());
+                        break;
+                    case 2:
+                        libManagement.printFormattedListOfBooksDetails();
+                        break;
+                    default:
+                        break;
                 }
             } else {
                 System.out.println("Select a valid option!");
             }
 
-        } while (option != 2);
+        } while (option != 3);
 
     }
 
@@ -40,15 +49,14 @@ public class MenuBiblioteca {
     }
 
     public String listOptions() {
-        return new StringBuilder().append(OPT_LIST_BOOKS)
-                .append("\n").append(OPT_QUIT).append("\nChoose an option: ").toString();
+        return new StringBuilder().append(OPT_LIST_BOOKS).append(NEW_LINE).append(OPT_BOOK_DETAILS)
+                .append(NEW_LINE).append(OPT_QUIT).append(NEW_LINE).append("Choose an option: ").toString();
     }
 
     public boolean isOptionValid(int option) {
 
-        if(option != 1 && option != 2) {
+        if (option != 1 && option != 2 && option != 3)
             return false;
-        }
 
         return true;
     }
