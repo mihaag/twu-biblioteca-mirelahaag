@@ -8,7 +8,7 @@ public class MenuBibliotecaTest {
 
     @Test
     public void whenAplicationStartsWelcomeMessageMustBeAppear() {
-        MenuBiblioteca menu = new MenuBiblioteca();
-        assertEquals("Welcome!", menu.showWelcomeMessage());
+        assertEquals("Welcome!", new MenuBiblioteca().showWelcomeMessage());
     }
+
 }
