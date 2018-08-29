@@ -11,4 +11,9 @@ public class MenuBibliotecaTest {
         assertEquals("Welcome!", new MenuBiblioteca().showWelcomeMessage());
     }
 
+    @Test
+    public void listOptionInMainMenu() {
+        assertEquals("1 - List Books", new MenuBiblioteca().showOptions());
+    }
+
 }
