@@ -17,8 +17,12 @@ public class MenuBiblioteca {
         System.out.println("Choose an option: ");
         int option = s.nextInt();
 
-        if(option == 1){
-            System.out.println(libManagement.getAListOfAllBooks());
+        if(isOptionValid(option)) {
+            if (option == 1) {
+                System.out.println(libManagement.getAListOfAllBooks());
+            }
+        } else {
+            System.out.println("Select a valid option!");
         }
 
     }
@@ -32,4 +36,12 @@ public class MenuBiblioteca {
         return LIST_BOOKS;
     }
 
+    public boolean isOptionValid(int option) {
+
+        if(option != 1) {
+            return false;
+        }
+
+        return true;
+    }
 }
