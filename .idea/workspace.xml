@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55ba6f15-7018-4ca4-803f-f1f1e3f8e4ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/LibraryManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/LibraryManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/MenuBiblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/MenuBiblioteca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/ExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/ExampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/LibraryManagementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/LibraryManagementTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/MenuBibliotecaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/MenuBibliotecaTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,12 +34,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="46" />
-          <entry key="java" value="4915" />
+          <entry key="java" value="4963" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4915" />
+          <entry key="JAVA" value="4963" />
           <entry key="PLAIN_TEXT" value="46" />
         </counts>
       </usages-collector>
@@ -89,12 +85,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/MenuBibliotecaTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="9" selection-end-line="26" />
+            <state relative-caret-position="272">
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#388#389#0" expanded="true" />
-                <element signature="e#470#471#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -157,13 +151,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/MenuTest.java" />
-        <option value="$PROJECT_DIR$/test/com/twu/biblioteca/MenuBibliotecaTest.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/LibraryManagement.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/Book.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/MenuBiblioteca.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/ExampleTest.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/LibraryManagementTest.java" />
+        <option value="$PROJECT_DIR$/test/com/twu/biblioteca/MenuBibliotecaTest.java" />
       </list>
     </option>
   </component>
@@ -219,7 +213,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535577287444" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535577514247" />
     <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
@@ -239,7 +233,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BibliotecaApp">
+  <component name="RunManager" selected="JUnit.MenuBibliotecaTest">
     <configuration name="BibliotecaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.BibliotecaApp" />
       <module name="TWU_Biblioteca-master" />
@@ -297,9 +291,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BibliotecaApp" />
         <item itemvalue="JUnit.MenuBibliotecaTest" />
         <item itemvalue="JUnit.LibraryManagementTest" />
+        <item itemvalue="Application.BibliotecaApp" />
         <item itemvalue="JUnit.All in TWU_Biblioteca-master" />
       </list>
     </recent_temporary>
@@ -318,18 +312,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LibraryManagementTest - 2018.08.29 at 12h 48m 36s.xml">
-      <configuration name="LibraryManagementTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryManagementTest - 2018.08.29 at 12h 49m 49s.xml">
-      <configuration name="LibraryManagementTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryManagementTest - 2018.08.29 at 12h 52m 25s.xml">
-      <configuration name="LibraryManagementTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MenuBibliotecaTest - 2018.08.29 at 14h 06m 39s.xml">
-      <configuration name="MenuBibliotecaTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MenuBibliotecaTest - 2018.08.29 at 14h 07m 11s.xml">
       <configuration name="MenuBibliotecaTest" configurationId="JUnit" />
     </history-entry>
@@ -346,6 +328,18 @@
       <configuration name="MenuBibliotecaTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MenuBibliotecaTest - 2018.08.29 at 14h 43m 40s.xml">
+      <configuration name="MenuBibliotecaTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryManagementTest - 2018.08.29 at 18h 17m 10s.xml">
+      <configuration name="LibraryManagementTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MenuBibliotecaTest - 2018.08.29 at 18h 17m 14s.xml">
+      <configuration name="MenuBibliotecaTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MenuBibliotecaTest - 2018.08.29 at 18h 17m 50s.xml">
+      <configuration name="MenuBibliotecaTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MenuBibliotecaTest - 2018.08.29 at 18h 18m 13s.xml">
       <configuration name="MenuBibliotecaTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -367,7 +361,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" weight="0.32918397" />
       <window_info anchor="bottom" id="Terminal" weight="0.33009708" />
@@ -375,7 +369,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32871014" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32871014" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32871014" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -481,12 +475,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/MenuBibliotecaTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="9" selection-end-line="26" />
+        <state relative-caret-position="272">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
           </folding>
         </state>
       </provider>
